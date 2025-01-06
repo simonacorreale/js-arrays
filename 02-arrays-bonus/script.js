@@ -24,7 +24,11 @@ teachers.forEach(element => {
     longNames.push(element);
   }
 });
+
 console.log(longNames);
+
+const longNames2 = teachers.filter((element) => element.length >= 5);
+console.log(longNames2);
 
 
 // 3. Rimuovi 'Ed' dall'array teachers
